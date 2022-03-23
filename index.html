@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        body{
+background-color: black;
 
+        }
+        table {
+            width: 65%;
+              }
+        th {
+            background: #e0f803;
+            font-weight: bold;
+            padding: 0px;
+            font-style: oblique;
+            height: 50px;
+        }
+        td {
+            background: #f8f6f6;
+            padding: 6px;
+          
+         
+        }
+        H1{
+
+            font-style: oblique;
+            text-align: center;
+            font-size: 46px;
+            color: white
+            
+        }
+        td:hover {background-color: coral;}
+        .leftside{
+            float: left;
+           
+
+        }
+        .rightside{
+            float:right;
+            width:30%
+            
+         
+
+        }
+        .images{
+            float: left;
+        }
+        .images2{
+            float:right
+        }
+        </style>
+
+<title>San Diego Top Spots</title>
 <head>
     <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <div class="header"><img class="images" src="img/San_Diego_Central_Library.jpg" alt="The New Central Library">
+    <img class="images2" src="img/Gaslamp_Quarter_sign,_San_Diego.jpg" alt="The Gaslamp District"><h1>San Diego Top Spots</h1> </div>
+    <div><br>
+    </div>
+    <table id="table" class="grilla">
+        <tr>
+          <!-- <th>Name</th>
+          <th>Description</th>
+          <th>Link</th> -->
+        </tr>
+          </table>
 </head>
 
 <body>
     <!-- Write your markup here -->
+    <div class="table">
 
+    <div class="leftside">
+    <table id="topSpots" class="grilla">
+        <thead>  
+                  <tr> 
+                <th>Name</th>
+                <th>Description</th>
+                <th>Link</th>
+                
+            </tr><div class="rightside">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HqwruRCD3iD0Hg-_qoz8yPPl7a4SBVqO&ehbc=2E312F" width="400" height="400"></iframe>
+          </div>
+        </thead>
+        <tbody></tbody>
+      </table>
+      </div></div>
+<script src="main.js" charset="utf-8"></script>
     <!-- Don't forget to add your <script> tag here -->
 </body>
 </html>
